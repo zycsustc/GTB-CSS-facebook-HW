@@ -1,0 +1,134 @@
+body {
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
+  BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+  background-color: #e9ebee;
+}
+
+.header {
+  background-color: #3b5998;
+  color: white;
+  width: 100%;
+  height: 100px;
+}
+
+.header > div {
+  display: inline-block;
+}
+
+.header-left {
+  width: 40%;
+  text-align: left;
+  display: inline-block;
+  height: 100px;
+}
+
+.header-left > div {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.logo {
+  font-size:60px;
+  margin-left: 335px;
+}
+
+.register-button {
+  background-color: #42b72a;
+  padding: 5px 10px;
+  border-radius: 3px 3px;
+  vertical-align: 8px;
+  margin-top: -8px;
+  margin-left: 3px;
+}
+
+.join-facebook {
+  display: inline-block;
+  width: 42%;
+  height: 100px;
+  text-align: right;
+}
+
+.join-facebook > p{
+  height: 100px;
+  line-height: 100px;
+  vertical-align: 10px;
+  margin-top: -10px;
+  display: inline-block;
+}
+
+.content {
+  width: 100%;
+  text-align: center;
+}
+
+.description {
+  width: 1230px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.business {
+  width: 600px;
+  height: 450px;
+  display: inline-block;
+  margin: 0 10px;
+  background-color: white;
+  border-radius: 5px 5px;
+}
+
+.society {
+  width: 600px;
+  height: 450px;
+  display: inline-block;
+  margin: 0 10px;
+  background-color: white;
+  border-radius: 5px 5px;
+}
+
+.create-page {
+  font-size: 30px;
+  font-weight: 900;
+  margin: 20px 0px 10px 0px;
+}
+
+.page-description {
+  margin: 10px 0px 50px 0px;
+}
+
+.start-button {
+  font-size: larger;
+  border: solid 1px lightgrey;
+  border-radius: 5px 5px;
+}
+
+.business-context, .society-context {
+  margin: 15px 0 70px 0;
+  font-size: large;
+  padding: 0 40px;
+}
+
+.business-context-title, .society-context-title {
+  font-weight: bolder;
+  font-size: x-large;
+  margin: 10px 0;
+}
+
+.business > img {
+  margin-top: 20px;
+}
+
+.society > img {
+  margin-top: 20px;
+}
+
+.options {
+  width: 0px;
+  height: 0px;
+  border-top: 10px solid white;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: -10px;
+  vertical-align: 10px;
+}
